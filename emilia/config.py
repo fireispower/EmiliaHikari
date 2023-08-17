@@ -2,7 +2,7 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "6412599320:AAFde10xeuFFaSfGOnbDVL57jATTtBQDMF8"
+    API_KEY = "6"
     OWNER_ID = "817237333"  # If you dont know, run the bot and do /id in your private chat with it
     OWNER_USERNAME = "firespower"
     # Some API is required for more features
@@ -11,7 +11,7 @@ class Config(object):
     MAPS_API = ""
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'postgres://fireispower:ilyaryaanu@database-2.cwh8lrzkdknb.eu-north-1.rds.amazonaws.com:5432/aryas'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgres://fireispower:@database-2.cwh8lrzkdknb.eu-north-1.rds.amazonaws.com:5432/aryas'  # needed for any database modules
     MESSAGE_DUMP = -1001869258891  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'rss', 'sed', 'weather']

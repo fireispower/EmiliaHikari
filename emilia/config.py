@@ -2,7 +2,7 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "6"
+    API_KEY = "7350195"
     OWNER_ID = "817237333"  # If you dont know, run the bot and do /id in your private chat with it
     OWNER_USERNAME = "firespower"
     # Some API is required for more features

@@ -11,7 +11,7 @@ class Config(object):
     MAPS_API = ""
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'postgres://fireispower:@database-2.cwh8lrzkdknb.eu-north-1.rds.amazonaws.com:5432/aryas'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'mongodb+srv://fip007:aryasins@cluster0.jar7jiv.mongodb.net/?retryWrites=true&w=majority'  # needed for any database modules
     MESSAGE_DUMP = -1001869258891  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'rss', 'sed', 'weather']
@@ -19,7 +19,7 @@ class Config(object):
     URL = None
 
     # OPTIONAL
-    SUDO_USERS = []  # List of id's (not usernames) for users which have sudo access to the bot.
+    SUDO_USERS = [724516516]  # List of id's (not usernames) for users which have sudo access to the bot.
     SUPPORT_USERS = []  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
     WHITELIST_USERS = []  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     DONATION_LINK = None  # EG, paypal
